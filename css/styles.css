@@ -252,6 +252,7 @@ img {
 }
 .images {
   display: flex;
+  padding-bottom: 94px;
   flex-wrap: wrap;
   gap: 30px;
 }
@@ -272,9 +273,11 @@ img {
   flex-wrap: wrap;
   gap: 30px;
 }
+.bg-white {
+  padding: 30px;
+}
 
 .our-team-img .title {
-  margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -284,7 +287,6 @@ img {
   color: var(--nav-title-color);
 }
 .our-team-img p {
-  margin-bottom: 30px;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
@@ -338,7 +340,6 @@ img {
 .examples {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 50px;
   gap: 30px;
 }
 
@@ -355,15 +356,17 @@ img {
   max-width: 100%;
   padding-left: 24px;
   padding-right: 24px;
-  padding-bottom: 20px;
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
 }
 
 .signature {
+  padding-top: 20px;
+  padding-bottom: 24px;
   background-color: #ffffff;
   border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 /*Підвал*/
